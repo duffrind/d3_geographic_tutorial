@@ -5,7 +5,7 @@ h2 {
   font-size: 16px;
   font-family: sans-serif;
   font-style: normal;
-  font-weight: normal; 
+  font-weight: normal;
   opacity: 0.7
 }
 
@@ -26,13 +26,15 @@ path.cell {
 }
 
 .land {
-  fill: none;
-  stroke: lightgrey;
+  fill: GREEN;
+  stroke: black;
+  stroke-width: 1px;
 }
 
 .state-boundary {
   fill: none;
-  stroke: lightgrey;
+  stroke: black;
+  stroke-width: 1px;
 }
 
 #cells.voronoi path.cell {
